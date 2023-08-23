@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\config",
+    "\\src\\routes",
+    "\\src\\services",
+    "\\src\\utils"
+  ],
+  "SelectedNode": "\\src\\routes\\index.js",
+  "PreviewInSolutionExplorer": false
+}

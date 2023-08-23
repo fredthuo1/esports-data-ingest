@@ -1,20 +1,5 @@
-function isValid(message) {
-    // Convert message string to JSON object
-    const data = JSON.parse(message);
-
-    // Check for required fields
-    if (!data.someRequiredField) {
-        return false;
-    }
-
-    // Check data type
-    if (typeof data.someField !== 'string') {
-        return false;
-    }
-
-    // Other validation checks...
-
-    return true;
+function isValid(data) {
+    return data && data.length > 0;
 }
 
 module.exports = {
